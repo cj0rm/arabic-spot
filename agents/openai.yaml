@@ -1,0 +1,5 @@
+interface:
+  display_name: "Arabic spot"
+  short_description: "الشعر العربي، العروض والقافية، البلاغة، الفصاحة والإلقاء"
+  brand_color: "#0A6C64"
+  default_prompt: "استخدم Arabic spot لمساعدتي في الشعر والبلاغة العربية، مع تحرّي الوزن والقافية وصحة اللغة دون ادعاء تحقق غير مؤكد."
