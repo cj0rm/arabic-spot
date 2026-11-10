@@ -5,7 +5,7 @@ All notable changes are documented here. Versions follow Semantic Versioning.
 ## Unreleased
 
 - Refine public-facing Arabic documentation and usage examples.
-- Remove internal publication and deployment instructions from the public project.
+- Improve README structure, clarity, and navigation for readers and contributors.
 
 ## [1.0.0] - 2026-11-08
 
