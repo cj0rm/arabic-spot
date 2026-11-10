@@ -10,12 +10,12 @@ def main():
     parser.add_argument("--ajuz", required=True, help="Second half of the Arabic verse")
     args = parser.parse_args()
     try:
-        from pyarud import analyze_verse, format_verse_report
+        from pyarud import ArudhProcessor, format_verse_report
     except ImportError:
         print("Missing optional dependency: run 'python3 -m pip install pyarud' first.", file=sys.stderr)
         return 2
     try:
-        result = analyze_verse(args.sadr, args.ajuz)
+        result = ArudhProcessor().analyze_verse(args.sadr, args.ajuz)
         print(format_verse_report(result))
     except Exception as exc:
         print(f"Prosody engine error: {exc}", file=sys.stderr)
